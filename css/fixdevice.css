@@ -32,5 +32,6 @@
     }
     #wrap-service .container.container.fix-width {
         max-width: 1366px !important;
+        position: relative;
     }
 }
