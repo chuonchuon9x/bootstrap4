@@ -63,11 +63,6 @@
        width: 50%;
    }
    
-   .wrapper-banner .container .banner .rounded img {
-       /* width: auto;
-           position: relative; */
-   }
-   
    .wrapper-banner .container .banner .rounded #best {
        position: absolute;
        color: white;
@@ -82,8 +77,6 @@
        display: flex;
        width: 100%;
    }
-   
-   .wrapper-banner .container .banner .carousel .carousel-inner .carousel-item {}
    
    .wrapper-banner .container .banner .carousel .carousel-inner .carousel-item .carousel-caption {
        text-align: left;
