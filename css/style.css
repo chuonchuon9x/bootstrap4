@@ -1,126 +1,263 @@
-   .wrapper-header .container {
-       position: relative;
-   }
-   
-   .wrapper-header .container .card-header {
-       display: flex;
-       position: absolute;
-       z-index: 100;
-       width: 100%;
-       padding: 10px;
-       background-color: unset;
-       border: none;
-   }
-   
-   .wrapper-header .container .card-header .rounded {
-       width: 15%;
-   }
-   
-   .wrapper-header .container .card-header .navi {
-       position: absolute;
-       left: 35%;
-       top: 20%;
-   }
-   
-   .wrapper-header .container .card-header .navi ul li {
-       padding-right: 5px;
-   }
-   
-   .wrapper-header .container .card-header .navi .navbar-nav .nav-link {
-       color: white;
-   }
-   
-   .wrapper-header .container .card-header .icon {
-       line-height: 70px;
-       position: absolute;
-       left: 87%;
-   }
-   
-   .wrapper-header .container .card-header .icon img {
-       padding-right: 10px;
-   }
-   
-   .wrapper-banner {
-       background-color: #b49a77;
-   }
-   
-   .wrapper-banner .container {
-       position: relative;
-   }
-   
-   .wrapper-banner .container .banner {
-       display: flex;
-       width: 100%;
-       background-color: #b49a77;
-   }
-   
-   .wrapper-banner .container .banner #carousel {
-       width: 50%;
-       position: relative;
-   }
-   
-   .wrapper-banner .container .banner .rounded {
-       width: 50%;
-   }
-   
-   .wrapper-banner .container .banner .rounded #best {
-       position: absolute;
-       color: white;
-       font-size: 100px;
-       bottom: 50%;
-       left: 45%;
-   }
-   
-   .wrapper-banner .container .banner #carousel .carousel {
-       position: absolute;
-       bottom: 10%;
-       display: flex;
-       width: 100%;
-   }
-   
-   .wrapper-banner .container .banner .carousel .carousel-inner .carousel-item .carousel-caption {
-       text-align: left;
-       padding: 0;
-       left: 47%;
-       right: 0;
-   }
-   
-   .wrapper-banner .container .banner .carousel #next {
-       color: white;
-       font-size: 75px;
-       position: absolute;
-       left: 45%;
-       bottom: 30%;
-   }
-   
-   .wrapper-banner .container .banner .carousel .carousel-control-prev {
-       left: 60%;
-       bottom: 35%;
-   }
-   
-   .wrapper-banner .container .banner .carousel .carousel-control-next {
-       right: 15%;
-       bottom: 35%;
-   }
-   
-   .wrapper-banner .container .banner .carousel .carousel-indicators {
-       bottom: 0;
-       top: 105%;
-       margin: 0;
-   }
-   
-   .wrapper-banner .container .banner .carousel .carousel-indicators li {
-       border-radius: 50%;
-       width: 10px;
-       height: 10px;
-   }
-   
-   .wrapper-banner .container .banner .carousel .carousel-item .carousel-caption p {
-       margin-bottom: 0;
-   }
-   
-   .wrapper-banner .container .banner #carousel .img-right {
-       position: absolute;
-       left: 72%;
-       top: 10%;
-   }
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --bg-color: #b49a77;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+#wrap-header .container {
+    position: relative;
+}
+
+#wrap-header .container .card-header {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    padding: 10px;
+    background-color: unset;
+    border: none;
+}
+
+#wrap-header .container .card-header .rounded {
+    width: 15%;
+}
+
+#wrap-header .container .card-header .navi {
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+
+#wrap-header .container .card-header .navi ul li {
+    padding-right: 5px;
+}
+
+#wrap-header .container .card-header .navi .navbar-nav .nav-link {
+    color: var(--white);
+}
+
+#wrap-header .container .card-header .icon {
+    line-height: 70px;
+    position: absolute;
+    left: 87%;
+}
+
+#wrap-header .container .card-header .icon img {
+    padding-right: 10px;
+}
+
+#wrap-banner {
+    background-color: var(--bg-color);
+}
+
+#wrap-banner .container {
+    position: relative;
+}
+
+#wrap-banner .container .banner {
+    width: 100%;
+    background-color: var(--bg-color);
+}
+
+#wrap-banner .container .banner .carousel-slide {
+    width: 50%;
+    position: relative;
+}
+
+#wrap-banner .container .banner .rounded {
+    width: 50%;
+}
+
+#wrap-banner .container .banner .rounded .best {
+    position: absolute;
+    color: var(--light);
+    font-size: 100px;
+    bottom: 50%;
+    left: 45%;
+}
+
+#wrap-banner .container .banner .carousel-slide .carousel {
+    position: absolute;
+    bottom: 10%;
+    display: flex;
+    width: 100%;
+}
+
+#wrap-banner .container .banner .carousel .carousel-inner .carousel-item .carousel-caption {
+    text-align: left;
+    padding: 0;
+    left: 47%;
+    right: 0;
+}
+
+#wrap-banner .container .banner .carousel .text-next {
+    color: var(--white);
+    font-size: 75px;
+    position: absolute;
+    left: 45%;
+    bottom: 30%;
+}
+
+#wrap-banner .container .banner .carousel .carousel-control-prev {
+    left: 60%;
+    bottom: 35%;
+}
+
+#wrap-banner .container .banner .carousel .carousel-control-next {
+    right: 15%;
+    bottom: 35%;
+}
+
+#wrap-banner .container .banner .carousel .carousel-indicators {
+    bottom: 0;
+    top: 105%;
+    margin: 0;
+}
+
+#wrap-banner .container .banner .carousel .carousel-indicators li {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+#wrap-banner .container .banner .carousel .carousel-item .carousel-caption p {
+    margin-bottom: 0;
+}
+
+#wrap-banner .container .banner .carousel-slide .img-right {
+    position: absolute;
+    left: 72%;
+    top: 10%;
+}
+
+#wrap-service .container .row .line {
+    border: 1px solid var(--dark);
+    width: 30%;
+    margin: 7% 0;
+}
+
+#wrap-service .container .row .title .hot {
+    text-transform: uppercase;
+}
+
+#wrap-service .container .row .square .square1 {
+    width: 80px;
+    height: 80px;
+    background-color: #f5f5f5;
+    margin-right: 20px;
+}
+
+#wrap-service .container .row .square .square2 {
+    width: 80px;
+    height: 80px;
+    background-color: #e0e0e0;
+    margin-right: 20px;
+}
+
+#wrap-service .container .row .square .square3 {
+    width: 80px;
+    height: 80px;
+    background-color: #cbcbcb;
+}
+
+#wrap-service {
+    position: relative;
+}
+
+#wrap-service .bg-service {
+    position: absolute;
+    background-color: var(--gray);
+    width: 50%;
+    height: 66%;
+    top: 33%;
+}
+
+#wrap-service .container .service {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    justify-items: center;
+}
+
+#wrap-service .container .service .rosara {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transform: rotate(-90deg);
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 1000;
+    width: 25%;
+    top: 80%;
+    left: -4%;
+    height: 0%;
+}
+
+#wrap-service .container .service .rosara::after {
+    content: '';
+    flex: 1;
+    margin-left: 20px;
+    height: 2px;
+    background-color: #000;
+    max-width: 20px;
+}
+
+#wrap-service .container .service .rosara::before {
+    content: '';
+    flex: 1;
+    margin-right: 20px;
+    height: 2px;
+    background-color: #000;
+    max-width: 150px;
+}
+
+#wrap-service .container .service .card {
+    padding: 20px;
+    border: none;
+    border-radius: unset;
+    background-color: unset;
+    width: 90%;
+}
+
+#wrap-service .container .service .card .card-img-top {
+    width: 100%;
+}
+
+#wrap-service .container .service .card .card-body {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    border: 1px solid var(--white);
+    width: 80%;
+    height: 100px;
+}
+
+#wrap-service .container .service .card .card-body .card-title {
+    text-align: center;
+    line-height: 50px;
+}

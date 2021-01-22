@@ -1,0 +1,36 @@
+@media screen and (min-width: 1201px) {
+    #wrap-header .container.fix-width {
+        max-width: 1366px !important;
+    }
+    #wrap-header .container .card-header .navi {
+        position: absolute;
+        left: 40%;
+        top: 20%;
+    }
+    #wrap-banner .container.fix-width {
+        max-width: 1366px !important;
+    }
+    #wrap-banner .container .banner .rounded {
+        padding: 0 100px;
+    }
+    #wrap-banner .container .banner .carousel .carousel-control-next {
+        opacity: 1;
+        right: 30%;
+    }
+    #wrap-banner .container .banner .carousel .carousel-control-prev {
+        opacity: 1;
+        left: 50%;
+    }
+    #wrap-banner .container .banner .carousel .text-next {
+        left: 40%;
+    }
+    #wrap-banner .container .banner .carousel .carousel-inner .carousel-item .carousel-caption {
+        left: 41%;
+    }
+    #wrap-banner .container .banner .carousel .carousel-indicators {
+        right: 20%;
+    }
+    #wrap-service .container.container.fix-width {
+        max-width: 1366px !important;
+    }
+}
