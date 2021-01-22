@@ -213,9 +213,9 @@
     text-transform: uppercase;
     position: absolute;
     z-index: 1000;
-    width: 25%;
-    top: 90%;
-    left: -15%;
+    width: 30%;
+    top: 88%;
+    left: -17%;
     font-size: 20px;
 }
 
@@ -234,7 +234,7 @@
     margin-right: 20px;
     height: 2px;
     background-color: #000;
-    max-width: 200px;
+    max-width: 220px;
 }
 
 #wrap-service .container .service .card {
@@ -252,9 +252,9 @@
 #wrap-service .container .service .card .card-body {
     position: absolute;
     top: 45%;
-    left: 10%;
+    left: 20%;
     border: 1px solid var(--white);
-    width: 80%;
+    width: 255px;
     height: 100px;
     padding: 0;
     z-index: 100;
@@ -262,9 +262,14 @@
 
 #wrap-service .container .row .service .card .card-body .card-title {
     text-align: center;
-    line-height: 100px;
+    line-height: 95px;
     margin: 0;
     color: var(--white);
+    font-size: 30px;
+}
+
+#wrap-service .container .row .service .card .card-body .card-title.monthly-program {
+    line-height: 45px;
 }
 
 #wrap-service .container .row .service .card .bg-shadow {
