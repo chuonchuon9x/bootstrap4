@@ -1,0 +1,105 @@
+       .wrapper-header .container .card-header {
+           display: flex;
+           position: absolute;
+           z-index: 100;
+           width: 1110px;
+           padding: 10px;
+           background-color: unset;
+           border: none;
+       }
+       
+       .wrapper-header .container .card-header .card-img {
+           width: 15%;
+       }
+       
+       .wrapper-header .container .card-header .navi {
+           padding-left: 22%;
+       }
+       
+       .wrapper-header .container .card-header .navi ul li {
+           padding-right: 5px;
+       }
+       
+       .wrapper-header .container .card-header .navi .navbar-nav .nav-link {
+           color: white;
+       }
+       
+       .wrapper-header .container .card-header .icon {
+           line-height: 70px;
+       }
+       
+       .wrapper-header .container .card-header .icon img {
+           padding-right: 10px;
+       }
+       
+       .wrapper-header .container .card-header .navi .navbar-collapse .navbar-nav .nav-item .dropdown-toggle::after {
+           display: none;
+       }
+       
+       .wrapper-banner {
+           background-color: #b49a77;
+       }
+       
+       .wrapper-banner .container .slider {
+           display: flex;
+           width: 100%;
+           background-color: #b49a77;
+       }
+       
+       .wrapper-banner .container .slider .card-img {
+           width: 50%;
+       }
+       
+       .wrapper-banner .container .slider .card-img img {
+           width: auto;
+           position: relative;
+       }
+       
+       .wrapper-banner .container .slider .card-img h1 {
+           font-size: 100px;
+           color: white;
+           position: absolute;
+           bottom: 65%;
+           left: 45%;
+       }
+       
+       .wrapper-banner .container .slider .carousel {
+           width: 50%;
+           display: flex;
+       }
+       
+       .wrapper-banner .container .slider .carousel .carousel-inner .carousel-item {
+           padding-top: 90%;
+       }
+       
+       .wrapper-banner .container .slider .carousel .carousel-inner .carousel-item .carousel-caption {
+           text-align: left;
+           left: 65%;
+           bottom: 0%;
+           right: 0;
+           padding: 0;
+       }
+       
+       .wrapper-banner .container .slider .carousel .carousel-control-prev {
+           left: 55%;
+           top: 25%;
+       }
+       
+       .wrapper-banner .container .slider .carousel .carousel-control-next {
+           top: 25%;
+           right: 20%;
+       }
+       
+       .wrapper-banner .container .slider .carousel .carousel-indicators {
+           bottom: 12%;
+       }
+       
+       .wrapper-banner .container .slider .carousel .carousel-indicators li {
+           border-radius: 50%;
+           width: 10px;
+           height: 10px;
+       }
+       
+       .wrapper-banner .container .slider .carousel .img-right {
+           padding-top: 20%;
+       }
