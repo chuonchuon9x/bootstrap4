@@ -30,8 +30,14 @@
     #wrap-banner .container .banner .carousel .carousel-indicators {
         right: 20%;
     }
-    #wrap-service .container.container.fix-width {
+    #wrap-service .container.fix-width {
         max-width: 1366px !important;
         position: relative;
+    }
+    #wrap-details .container.fix-width {
+        max-width: 1366px !important;
+    }
+    #wrap-footer .container.fix-width {
+        max-width: 1366px !important;
     }
 }
