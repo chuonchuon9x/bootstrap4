@@ -30,14 +30,22 @@
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.bg-header {
+    background-color: #b49a77;
+}
+
+#wrap-header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
 #wrap-header .container {
     position: relative;
 }
 
 #wrap-header .container .card-header {
-    position: absolute;
-    z-index: 100;
-    width: 100%;
+    width: 80%;
     padding: 10px;
     background-color: unset;
     border: none;
@@ -212,7 +220,7 @@
     transform: rotate(-90deg);
     text-transform: uppercase;
     position: absolute;
-    z-index: 1000;
+    z-index: 500;
     width: 30%;
     top: 88%;
     left: -17%;
